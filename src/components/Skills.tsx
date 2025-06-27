@@ -104,7 +104,7 @@ const Skills = () => {
                             sx={{
                                 borderRadius: '20px',
                                 boxShadow: 'none',
-                                backgroundColor: category === activeCategory ? '#4a90e2' : '#dcdcdc',
+                                backgroundColor: category === activeCategory ? '#333' : '#dcdcdc',
                                 color: category === activeCategory ? 'white' : 'black',
                                 ":hover": {
                                     backgroundColor: '#333',

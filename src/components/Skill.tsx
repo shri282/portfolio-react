@@ -43,7 +43,7 @@ const Skill: React.FC<SkillProps> = ({ name, level }) => {
                 sx={{
                     height: 7,
                     borderRadius: 5,
-                    color: '#4a90e2',
+                    color: '#333',
                     marginBottom: 1,
                     transition: 'width 0.3s ease-in-out',
                 }}
