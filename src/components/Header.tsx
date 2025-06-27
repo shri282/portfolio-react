@@ -55,12 +55,12 @@ const Header = () => {
 
     return (
         <header id="main-header" className="header-top">
-            <img className="logo" src="./images/portfolio.png" alt="Portfolio Logo" />
+            <h5 style={{ color: 'red' }}>PORTFOLIO</h5>
             <nav className="pages">
-                <a className="nav" href="#about" onClick={navHandler}>About me</a>
-                <a className="nav" href="#skills" onClick={navHandler}>Skills</a>
-                <a className="nav" href="#experience" onClick={navHandler}>Experience</a>
-                <a className="contact-me" href="#contact" onClick={navHandler}>CONTACT ME</a>
+                <a className="nav" onClick={navHandler}>About me</a>
+                <a className="nav" onClick={navHandler}>Skills</a>
+                <a className="nav" onClick={navHandler}>Experience</a>
+                <a className="nav" onClick={navHandler}>Contact Me</a>
             </nav>
         </header>
     );
