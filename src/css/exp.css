@@ -43,6 +43,7 @@
 
 .exp-item {
     display: flex;
+    flex-direction: column;
     padding: 2rem;
     justify-content: space-between;
     align-items: flex-start;
@@ -72,8 +73,6 @@
 .company-logo {
     flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .company-logo img {
@@ -97,11 +96,13 @@
     font-size: 1.2rem;
     color: #2c3e50;
     margin-bottom: 0.5rem;
+    text-align: justify;
 }
 
 .exp-res {
     list-style-type: none;
     padding-left: 0;
+    text-align: justify;
 }
 
 .exp-res li {
