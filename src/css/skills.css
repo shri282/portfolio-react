@@ -16,3 +16,9 @@
     background: linear-gradient(90deg, #3498db, #9b59b6);
     border-radius: 2px;
 }
+
+@media (max-width: 768px) {
+    #skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

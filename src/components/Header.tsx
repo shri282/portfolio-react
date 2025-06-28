@@ -62,8 +62,8 @@ const Header = () => {
             <nav className="pages">
                 <a className="nav" onClick={navHandler}>About me</a>
                 <a className="nav" onClick={navHandler}>Skills</a>
-                <a className="nav" onClick={navHandler}>Experience</a>
                 <a className="nav" onClick={navHandler}>Projects</a>
+                <a className="nav" onClick={navHandler}>Experience</a>
                 <a className="nav" onClick={navHandler}>Contact me</a>
             </nav>
         </header>

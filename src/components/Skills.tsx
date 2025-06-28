@@ -121,6 +121,7 @@ const Skills = () => {
             </Box>
 
             <Box
+                id="skills-grid"
                 sx={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(3, 1fr)',
