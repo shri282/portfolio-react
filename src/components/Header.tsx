@@ -15,11 +15,14 @@ const Header = () => {
             case 'Skills':
                 sectionId = 'skills';
                 break;
+            case 'Projects':
+                sectionId = 'projects';
+                break;
             case 'Experience':
                 sectionId = 'experience';
                 break;
-            case 'CONTACT ME':
-                sectionId = 'contact';
+            case 'Contact me':
+                sectionId = 'contact-me';
                 break;
             default:
                 return;
@@ -60,7 +63,8 @@ const Header = () => {
                 <a className="nav" onClick={navHandler}>About me</a>
                 <a className="nav" onClick={navHandler}>Skills</a>
                 <a className="nav" onClick={navHandler}>Experience</a>
-                <a className="nav" onClick={navHandler}>Contact Me</a>
+                <a className="nav" onClick={navHandler}>Projects</a>
+                <a className="nav" onClick={navHandler}>Contact me</a>
             </nav>
         </header>
     );

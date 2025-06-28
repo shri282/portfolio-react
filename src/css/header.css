@@ -28,12 +28,12 @@ header {
 .pages {
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 5px;
 }
 
 .nav {
     font-family: Montserrat;
-    margin-right: 50px;
+    margin-right: 40px;
     font-weight: 400;
     font-size: 10;
     text-decoration: none;

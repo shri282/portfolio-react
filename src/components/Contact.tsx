@@ -3,7 +3,7 @@ import "../css/contact.css"
 
 const Contact = () => {
     return (
-        <section id="contact" className="contact">
+        <section id="contact-me" className="contact">
             <h2>Contact</h2>
             <p style={{ marginTop: '40px' }} className="contact-des">
                 Please contact me for further information
