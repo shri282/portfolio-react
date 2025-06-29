@@ -14,14 +14,14 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="./images/linkedin.png" alt="LinkedIn Profile" />
+                        <img src="./images/linkedin.svg" alt="LinkedIn Profile" />
                     </a>
                     <a
                         href="https://github.com/shri282"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="./images/github.png" alt="GitHub Profile" />
+                        <img src="./images/github-logo.svg" alt="GitHub Profile" />
                     </a>
                     <a
                         href="https://leetcode.com/shrikadhir/"
