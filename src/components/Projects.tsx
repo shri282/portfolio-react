@@ -14,7 +14,7 @@ const projects = [
     },
     {
         name: 'ChatApp',
-        tools: ['React', 'Express.js', 'MySQL'],
+        tools: ['React', 'Express.js', 'MongoDB'],
         description: 'Real-time chat app supporting 1-on-1 and group messaging with profile settings, notifications, and read receipts.',
         gitHubLink: 'https://github.com/shri282/Chat-App2.0-BE',
         liveLink: 'https://chat-app2-0-fe.vercel.app/',

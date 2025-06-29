@@ -28,7 +28,7 @@ const Hero = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="./images/icons8-leetcode-16.png" alt="LeetCode Profile" />
+                        <img src="./images/leetcode.svg" alt="LeetCode Profile" />
                     </a>
                 </nav>
             </div>
