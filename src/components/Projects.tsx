@@ -73,7 +73,7 @@ const Projects = () => {
                                 }}
                             >
                                 {project.description}
-                                {project.name === 'Shopnest' && <><br /><strong>Note: Server spins down if idle, may take 60-90 sec to load.</strong></>}
+                                <><br /><strong>Note: Server spins down if idle, may take 60-90 sec to load.</strong></>
                             </Typography>
 
                             <Box sx={{ display: 'flex', gap: 2, mt: 3, flexWrap: 'wrap' }}>
