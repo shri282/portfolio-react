@@ -10,7 +10,7 @@ const projects = [
         description: 'A dynamic e-commerce platform with integrated authentication, product, cart, and payment modules.',
         gitHubLink: 'https://github.com/shri282/ShopNest-BE',
         liveLink: 'https://shop-nest-fe.vercel.app/',
-        image: '/images/Screenshot 2025-06-28 050747.png',
+        image: '/images/Screenshot 2025-07-02 230619.png',
     },
     {
         name: 'ChatApp',
@@ -18,7 +18,7 @@ const projects = [
         description: 'Real-time chat app supporting 1-on-1 and group messaging with profile settings, notifications, and read receipts.',
         gitHubLink: 'https://github.com/shri282/Chat-App2.0-BE',
         liveLink: 'https://chat-app2-0-fe.vercel.app/',
-        image: '/images/Screenshot 2025-06-28 050506.png',
+        image: '/images/Screenshot 2025-07-02 230406.png',
 
     },
 ];
