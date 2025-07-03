@@ -132,6 +132,11 @@
     background: #555;
 }
 
+.error {
+    color: red;
+    font-size: small;
+}
+
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;

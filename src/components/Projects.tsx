@@ -7,7 +7,18 @@ const projects = [
     {
         name: 'Shopnest',
         tools: ['SpringBoot', 'React', 'MySQL'],
-        description: 'A dynamic e-commerce platform with integrated authentication, product, cart, and payment modules.',
+        description: <div className='project_description'><p>Shopnest is a full-stack e-commerce platform built with Spring Boot and React.js,
+            featuring secure role-based authentication using Spring Security and JWT.
+            It supports three user roles — User, Seller, and Admin — with dedicated functionality.
+            Sellers can manage products, handle orders, process refunds and voids, and upload product images via
+            Cloudinary.</p>
+            <p>Users can browse products with advanced search, manage multiple delivery addresses, add items to
+                the cart, and complete purchases using Stripe for secure payments.The platform includes modules
+                for product management, user profiles, cart operations, and checkout.It uses Spring Data JPA
+                and Hibernate for ORM and ensures robust backend handling with global error responses.
+                A scheduler is implemented to send email reminders for abandoned carts, improving user engagement.
+                The application is fully responsive, user- friendly, and deployed on cloud platforms.</p>
+        </div>,
         gitHubLink: 'https://github.com/shri282/ShopNest-BE',
         liveLink: 'https://shop-nest-fe.vercel.app/',
         image: '/images/Screenshot 2025-07-02 230619.png',
@@ -15,7 +26,10 @@ const projects = [
     {
         name: 'ChatApp',
         tools: ['React', 'Express.js', 'MongoDB'],
-        description: 'Real-time chat app supporting 1-on-1 and group messaging with profile settings, notifications, and read receipts.',
+        description: <div className='project_description'>
+            <p>ChatApp is a real-time messaging platform built with React, Node.js, and MongoDB Atlas, supporting both one-on-one and group chats. It includes secure authentication, user profiles, and real-time features like typing indicators, last seen, read receipts, and message notifications using Socket.io.</p>
+            <p>Users can share text, emojis, and files, with Multer handling file uploads and Cloudinary for media storage. The frontend uses Material UI, while the backend is powered by Express.js and Mongoose. ChatApp also includes profile image uploads, group management, and a notification module for enhanced user interaction.</p>
+        </div>,
         gitHubLink: 'https://github.com/shri282/Chat-App2.0-BE',
         liveLink: 'https://chat-app2-0-fe.vercel.app/',
         image: '/images/Screenshot 2025-07-02 230406.png',
@@ -73,7 +87,7 @@ const Projects = () => {
                                 }}
                             >
                                 {project.description}
-                                <><br /><strong>Note: Server spins down if idle, may take 60-90 sec to load.</strong></>
+                                <><strong>Note: Server spins down if idle, may take 60-90 sec to load.</strong></>
                             </Typography>
 
                             <Box sx={{ display: 'flex', gap: 2, mt: 3, flexWrap: 'wrap' }}>

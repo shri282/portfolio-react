@@ -16,3 +16,7 @@
     background: linear-gradient(90deg, #3498db, #9b59b6);
     border-radius: 2px;
 }
+
+.project_description {
+    text-align: justify;
+}
