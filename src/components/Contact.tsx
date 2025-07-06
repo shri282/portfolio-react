@@ -16,7 +16,7 @@ interface IContactForm {
 
 const Contact = () => {
 
-    const { control, formState, register, handleSubmit } = useForm<IContactForm>();
+    const { control, formState, register, handleSubmit, reset } = useForm<IContactForm>();
     const [loading, setLoading] = useState(false);
     const [infoSnackbarOpen, setInfoSnackbarOpen] = useState(false);
     const { errors } = formState;
@@ -33,6 +33,7 @@ const Contact = () => {
                 process.env.REACT_APP_EMAIL_PUBLIC_KEY || ""
             );
             setInfoSnackbarOpen(true);
+            reset();
         } catch (error) {
             console.log("error in sending message" + process.env.REACT_APP_EMAIL_SERVICE_NAME, error);
         } finally {
