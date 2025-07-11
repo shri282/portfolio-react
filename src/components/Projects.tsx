@@ -21,7 +21,7 @@ const projects = [
         </div>,
         gitHubLink: 'https://github.com/shri282/ShopNest-BE',
         liveLink: 'https://shop-nest-fe.vercel.app/',
-        image: '/images/Screenshot 2025-07-02 230619.png',
+        image: '/images/Screenshot 2025-07-12 022840.png',
     },
     {
         name: 'ChatApp',
